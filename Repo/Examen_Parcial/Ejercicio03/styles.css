@@ -1,0 +1,35 @@
+/*
+Agrega en cada selector las reglas necesarias para obtener el resultado esperado
+según las instrucciones y la imágen muestra.
+*/
+
+/* 1. Estilo global */
+* {
+  margin: 0;
+}
+
+/* 2. Estilos para el título de la pagina */
+h1 {
+  text-align: center;
+  background-color: #EDEEEE;
+  color: orange;
+  border-bottom: 3px solid #4caf50;
+  padding: 30px;
+}
+
+/* 3. Estilos para el contenedor de imagenes de la galeria */
+#galeria {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;   /* Permite que las imágenes se acomoden en varias filas */
+  justify-content: center; /* Centra las imágenes dentro del contenedor */
+}
+
+/* 4. Estilos para las imágenes dentro de la galería */
+#galeria img {
+  width: 30%;        /* Cada imagen ocupa aproximadamente un tercio del ancho */
+  box-sizing: border-box;
+  padding: 1.2em;
+  transition: background-color 0.3s ease;
+}
